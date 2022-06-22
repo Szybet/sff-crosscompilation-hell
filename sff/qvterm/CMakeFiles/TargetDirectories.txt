@@ -1,0 +1,3 @@
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/qvterm.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/rebuild_cache.dir

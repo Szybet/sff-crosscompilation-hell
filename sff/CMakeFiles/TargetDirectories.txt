@@ -1,0 +1,12 @@
+/mnt/HDD/Project/compile/sff/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/compile/sff/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/compile/sff/ext/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/compile/sff/ext/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/qvterm.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/qvterm_autogen.dir
+/mnt/HDD/Project/compile/sff/app/CMakeFiles/sff.dir
+/mnt/HDD/Project/compile/sff/app/CMakeFiles/edit_cache.dir
+/mnt/HDD/Project/compile/sff/app/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Project/compile/sff/app/CMakeFiles/sff_autogen.dir

@@ -1,0 +1,1 @@
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++  -std=c++17 -pthread -O2 -g -DNDEBUG -Wl,--copy-dt-needed-entries CMakeFiles/sff.dir/sff_autogen/mocs_compilation.cpp.o CMakeFiles/sff.dir/main.cpp.o -o ../bin/sff  -Wl,-rpath,/mnt/HDD/Project/compile/sff/lib ../lib/libqvterm.so -lvterm -lQt5Widgets -lutil 

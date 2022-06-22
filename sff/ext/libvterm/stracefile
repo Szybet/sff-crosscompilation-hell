@@ -1,0 +1,1 @@
+libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/encoding.o src/.libs/keyboard.o src/.libs/mouse.o src/.libs/parser.o src/.libs/pen.o src/.libs/screen.o src/.libs/state.o src/.libs/unicode.o src/.libs/vterm.o      -Wl,-soname -Wl,libvterm.so.0 -o .libs/libvterm.so.0.0.3

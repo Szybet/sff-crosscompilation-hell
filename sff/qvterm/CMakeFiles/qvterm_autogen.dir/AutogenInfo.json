@@ -1,0 +1,91 @@
+{
+	"BUILD_DIR" : "/mnt/HDD/Project/compile/sff/qvterm/qvterm_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/HDD/Project/compile/sff",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/HDD/Project/compile/sff/qvterm",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/HDD/Project/compile/sff/qvterm",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/mnt/HDD/Project/compile/sff/qvterm/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/compile/sff",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/compile/sff/qvterm/highlight.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_highlight.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/qvterm/qvterm.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_qvterm.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/qvterm/region.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_region.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/qvterm/scrollback.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_scrollback.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/mnt/HDD/Project/compile/sff/qvterm/qvterm_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/compile/sff/qvterm/qvterm_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "qvterm_EXPORTS" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/mnt/HDD/Project/compile/sff/qvterm",
+		"/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include",
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/mnt/HDD/Project/compile/sff/qvterm/qvterm_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/qvterm_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/qvterm_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/mnt/HDD/Project/compile/sff/qvterm/highlight.cpp", "Mu", null ],
+		[ "/mnt/HDD/Project/compile/sff/qvterm/qvterm.cpp", "Mu", null ],
+		[ "/mnt/HDD/Project/compile/sff/qvterm/region.cpp", "Mu", null ],
+		[ "/mnt/HDD/Project/compile/sff/qvterm/scrollback.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

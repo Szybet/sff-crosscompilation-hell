@@ -1,0 +1,8 @@
+add_library(qvterm SHARED
+    highlight.cpp
+    region.cpp
+    scrollback.cpp
+    qvterm.cpp)
+target_link_libraries(qvterm vterm.so Qt5Widgets.so util)
+target_include_directories(qvterm PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)

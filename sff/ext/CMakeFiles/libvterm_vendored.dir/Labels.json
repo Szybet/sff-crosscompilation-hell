@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored-complete.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-build.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-configure.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-download.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-install.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-patch.rule"
+		},
+		{
+			"file" : "/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libvterm_vendored"
+		],
+		"name" : "libvterm_vendored"
+	}
+}

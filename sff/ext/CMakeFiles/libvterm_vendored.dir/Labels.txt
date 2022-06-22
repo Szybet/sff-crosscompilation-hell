@@ -1,0 +1,13 @@
+# Target labels
+ libvterm_vendored
+# Source files and their labels
+/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored
+/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored.rule
+/mnt/HDD/Project/compile/sff/ext/CMakeFiles/libvterm_vendored-complete.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-build.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-configure.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-download.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-install.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-mkdir.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-patch.rule
+/mnt/HDD/Project/compile/sff/libvterm/src/libvterm_vendored-stamp/libvterm_vendored-update.rule

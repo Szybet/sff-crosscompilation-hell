@@ -1,0 +1,806 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.15.48-1-lts - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/sff/qvterm/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/sff/qvterm/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/sff/qvterm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3034d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3034d.dir/build.make CMakeFiles/cmTC_3034d.dir/build
+make[1]: Entering directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3034d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccLEZUBV.s
+GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ec16801e63508db67fa2bff2393cea1e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o /tmp/ccLEZUBV.s
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.'
+Linking C static library libcmTC_3034d.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3034d.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3034d.dir/link.txt --verbose=1
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_3034d.a CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_3034d.a
+make[1]: Leaving directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/sff/qvterm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_3034d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3034d.dir/build.make CMakeFiles/cmTC_3034d.dir/build]
+  ignore line: [make[1]: Entering directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3034d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/ccLEZUBV.s]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ec16801e63508db67fa2bff2393cea1e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o /tmp/ccLEZUBV.s]
+  ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_3034d.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_3034d.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3034d.dir/link.txt --verbose=1]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_3034d.a CMakeFiles/cmTC_3034d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_3034d.a]
+  ignore line: [make[1]: Leaving directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/sff/qvterm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f04ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_f04ac.dir/build.make CMakeFiles/cmTC_f04ac.dir/build
+make[1]: Entering directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f04ac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/cciouG2t.s
+GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 63c73a445e8e89dcda7202a669d2fc11
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciouG2t.s
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_f04ac.a
+/usr/bin/cmake -P CMakeFiles/cmTC_f04ac.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f04ac.dir/link.txt --verbose=1
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_f04ac.a CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_f04ac.a
+make[1]: Leaving directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/sff/qvterm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_f04ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_f04ac.dir/build.make CMakeFiles/cmTC_f04ac.dir/build]
+  ignore line: [make[1]: Entering directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f04ac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a8 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+sec+simd -march=armv7-a+sec+simd -version -o /tmp/cciouG2t.s]
+  ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 63c73a445e8e89dcda7202a669d2fc11]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciouG2t.s]
+  ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a8' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+sec+simd' '-march=armv7-a+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_f04ac.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_f04ac.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f04ac.dir/link.txt --verbose=1]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ar qc libcmTC_f04ac.a CMakeFiles/cmTC_f04ac.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-ranlib libcmTC_f04ac.a]
+  ignore line: [make[1]: Leaving directory '/tmp/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+The target system is: Linux -  - 
+The host system is: Linux - 5.15.48-1-lts - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc 
+Build flags: -O3;-ffast-math;-march=armv7-a;-mtune=cortex-a8;-mfpu=neon;-mfloat-abi=hard;-mthumb;-D_GLIBCXX_USE_CXX11_ABI=0;-pipe;-fomit-frame-pointer;-frename-registers;-fweb;-flto=9;-fuse-linker-plugin
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ 
+Build flags: -O3;-ffast-math;-march=armv7-a;-mtune=cortex-a8;-mfpu=neon;-mfloat-abi=hard;-mthumb;-D_GLIBCXX_USE_CXX11_ABI=0;-pipe;-fomit-frame-pointer;-frename-registers;-fweb;-flto=9;-fuse-linker-plugin
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aca99/fast && /usr/bin/make  -f CMakeFiles/cmTC_aca99.dir/build.make CMakeFiles/cmTC_aca99.dir/build
+make[1]: Entering directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin    -v -o CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_aca99.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D _GLIBCXX_USE_CXX11_ABI=0 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aca99.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -version -ffast-math -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin -o - |
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ec16801e63508db67fa2bff2393cea1e
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_aca99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca99.dir/link.txt --verbose=1
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin  -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl,-O1 -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -o cmTC_aca99 
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_aca99' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_aca99.'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2 -plugin /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW9L2cO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=9 --sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_aca99 /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib -O1 --as-needed CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -fresolution=/tmp/ccW9L2cO.res -flinker-output=exec CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o 
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -fresolution=/tmp/ccW9L2cO.res -flinker-output=exec CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o 
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc @/tmp/cccmCFIj
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-mtls-dialect=gnu'     '-fltrans-output-list=/tmp/ccE1OxBV.ltrans.out' '-fwpa=9' '-fresolution=/tmp/ccW9L2cO.res' '-flinker-output=exec' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto1 -quiet -dumpbase ./cmTC_aca99.wpa -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -O3 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -ffast-math -fomit-frame-pointer -frename-registers -fweb -fuse-linker-plugin -fltrans-output-list=/tmp/ccE1OxBV.ltrans.out -fwpa=9 -fresolution=/tmp/ccW9L2cO.res -flinker-output=exec @/tmp/ccI7ViUs
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-mtls-dialect=gnu'     '-fltrans-output-list=/tmp/ccE1OxBV.ltrans.out' '-fwpa=9' '-fresolution=/tmp/ccW9L2cO.res' '-flinker-output=exec' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' './cmTC_aca99.wpa.'
+make -f /tmp/cc0g25Rf.mk -j9 all
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-mtls-dialect=gnu'     '-fltrans' '-o' '/tmp/ccE1OxBV.ltrans0.ltrans.o' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto1 -quiet -dumpbase ./cmTC_aca99.ltrans0.ltrans -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -O3 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -ffast-math -fomit-frame-pointer -frename-registers -fweb -fuse-linker-plugin -fltrans /tmp/ccE1OxBV.ltrans0.o -o - |
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfloat-abi=hard -mfpu=neon -mfpu=neon -meabi=5 -o /tmp/ccE1OxBV.ltrans0.ltrans.o
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+MAKEFLAGS=w -j9 
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-mtls-dialect=gnu'     '-fltrans' '-o' '/tmp/ccE1OxBV.ltrans0.ltrans.o' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' './cmTC_aca99.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_aca99' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_aca99.'
+make[1]: Leaving directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_aca99/fast && /usr/bin/make  -f CMakeFiles/cmTC_aca99.dir/build.make CMakeFiles/cmTC_aca99.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc   -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin    -v -o CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_aca99.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1 -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D _GLIBCXX_USE_CXX11_ABI=0 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aca99.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -version -ffast-math -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin -o - |]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ec16801e63508db67fa2bff2393cea1e]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_aca99]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca99.dir/link.txt --verbose=1]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin  -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl -O1 -Wl --as-needed -v -rdynamic CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -o cmTC_aca99 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_aca99' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_aca99.']
+  link line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2 -plugin /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW9L2cO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=9 --sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_aca99 /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib -O1 --as-needed CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccW9L2cO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-flto=9] ==> ignore
+    arg [--sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aca99] ==> ignore
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o]
+    arg [-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib] ==> dir [/home/szybet/Kindle/CrossTool/Build_KOBO/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_aca99.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/szybet/Kindle/CrossTool/Build_KOBO/lib] ==> [/home/szybet/Kindle/CrossTool/Build_KOBO/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/szybet/Kindle/CrossTool/Build_KOBO/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c364a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c364a.dir/build.make CMakeFiles/cmTC_c364a.dir/build
+make[1]: Entering directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin    -v -o CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_c364a.dir/'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE -D _GLIBCXX_USE_CXX11_ABI=0 /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c364a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -version -ffast-math -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin -o - |
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"
+ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"
+ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 63c73a445e8e89dcda7202a669d2fc11
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_c364a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c364a.dir/link.txt --verbose=1
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin  -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl,-O1 -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c364a 
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_c364a' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_c364a.'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2 -plugin /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpuuNMO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=9 --sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_c364a /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib -O1 --as-needed CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -fresolution=/tmp/ccpuuNMO.res -flinker-output=exec CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o 
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -fresolution=/tmp/ccpuuNMO.res -flinker-output=exec CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o 
+/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ @/tmp/ccAQ8pAt
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu'     '-fltrans-output-list=/tmp/ccA8NObj.ltrans.out' '-fwpa=9' '-fresolution=/tmp/ccpuuNMO.res' '-flinker-output=exec' '-shared-libgcc' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto1 -quiet -dumpbase ./cmTC_c364a.wpa -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -O3 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -ffast-math -fomit-frame-pointer -frename-registers -fweb -fuse-linker-plugin -fltrans-output-list=/tmp/ccA8NObj.ltrans.out -fwpa=9 -fresolution=/tmp/ccpuuNMO.res -flinker-output=exec @/tmp/cc1Zcqfp
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu'     '-fltrans-output-list=/tmp/ccA8NObj.ltrans.out' '-fwpa=9' '-fresolution=/tmp/ccpuuNMO.res' '-flinker-output=exec' '-shared-libgcc' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' './cmTC_c364a.wpa.'
+make -f /tmp/cc7W7jHI.mk -j9 all
+Using built-in specs.
+COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++
+Target: arm-kobo-linux-gnueabihf
+Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu'     '-fltrans' '-o' '/tmp/ccA8NObj.ltrans0.ltrans.o' '-shared-libgcc' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd'
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto1 -quiet -dumpbase ./cmTC_c364a.ltrans0.ltrans -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -O3 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -ffast-math -fomit-frame-pointer -frename-registers -fweb -fuse-linker-plugin -fltrans /tmp/ccA8NObj.ltrans0.o -o - |
+ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfloat-abi=hard -mfpu=neon -mfpu=neon -meabi=5 -o /tmp/ccA8NObj.ltrans0.ltrans.o
+GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+MAKEFLAGS=w -j9 
+COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/
+LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-mfpu=neon' '-mfloat-abi=hard' '-mtls-dialect=gnu'  '-O3' '-O3' '-ffast-math' '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-shared-libgcc' '-mtls-dialect=gnu'     '-fltrans' '-o' '/tmp/ccA8NObj.ltrans0.ltrans.o' '-shared-libgcc' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' './cmTC_c364a.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_c364a' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_c364a.'
+make[1]: Leaving directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+    add: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include] ==> [/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include]
+  collapse include dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-kobo-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_c364a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c364a.dir/build.make CMakeFiles/cmTC_c364a.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/HDD/Project/compile/sff/qvterm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++   -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin    -v -o CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_c364a.dir/']
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/cc1plus -quiet -v -iprefix /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/ -isysroot /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot -D_GNU_SOURCE -D _GLIBCXX_USE_CXX11_ABI=0 /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c364a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -mtls-dialect=gnu -mlibarch=armv7-a+simd -march=armv7-a+simd -O3 -version -ffast-math -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin -o - |]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.37 (arm-kobo-linux-gnueabihf) using BFD version (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) 2.37]
+  ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/include]
+  ignore line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) version 11.2.0 (arm-kobo-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 63c73a445e8e89dcda7202a669d2fc11]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-v' '-o' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_c364a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c364a.dir/link.txt --verbose=1]
+  ignore line: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++ -O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin  -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl -O1 -Wl --as-needed -v -rdynamic CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c364a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper]
+  ignore line: [Target: arm-kobo-linux-gnueabihf]
+  ignore line: [Configured with: /mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-kobo-linux-gnueabihf --prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --exec_prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf --with-sysroot=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.519_3e2d99d - NiLuJe' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpfr=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-mpc=/mnt/HDD/Project/qt-kobo/koxtoolchain/build/kobo/.build/arm-kobo-linux-gnueabihf/buildtools --with-isl=no --with-cloog=no --enable-lto --enable-threads=posix --with-linker-hash-style=gnu --enable-plugin --enable-gold --disable-nls --disable-multilib --with-diagnostics-color=always --with-local-prefix=/home/szybet/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot --enable-long-long --with-mode=thumb]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG 1.24.0.519_3e2d99d - NiLuJe) ]
+  ignore line: [COMPILER_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib/:/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-ffast-math'  '-mtune=cortex-a8' '-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-D' '_GLIBCXX_USE_CXX11_ABI=0' '-pipe' '-fomit-frame-pointer' '-frename-registers' '-fweb' '-flto=9' '-fuse-linker-plugin' '-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib' '-v' '-rdynamic' '-o' 'cmTC_c364a' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+simd' '-march=armv7-a+simd' '-dumpdir' 'cmTC_c364a.']
+  link line: [ /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2 -plugin /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so -plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpuuNMO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=9 --sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_c364a /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o -L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0 -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib -L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib -O1 --as-needed CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o /mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../libexec/gcc/arm-kobo-linux-gnueabihf/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpuuNMO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-flto=9] ==> ignore
+    arg [--sysroot=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c364a] ==> ignore
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o]
+    arg [-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib] ==> dir [/home/szybet/Kindle/CrossTool/Build_KOBO/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib]
+    arg [-L/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib] ==> dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_c364a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o]
+    arg [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o]
+  collapse obj [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/szybet/Kindle/CrossTool/Build_KOBO/lib] ==> [/home/szybet/Kindle/CrossTool/Build_KOBO/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/../../../../arm-kobo-linux-gnueabihf/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/../arm-kobo-linux-gnueabihf/sysroot/usr/lib] ==> [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crt1.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crti.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtbegin.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtfastmath.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/crtend.o;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/szybet/Kindle/CrossTool/Build_KOBO/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
