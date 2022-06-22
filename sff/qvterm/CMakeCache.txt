@@ -40,7 +40,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-g
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc-ranlib
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -63,7 +63,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnu
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gcc-ranlib
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-O3 -ffast-math -march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard -mthumb -D_GLIBCXX_USE_CXX11_ABI=0 -pipe -fomit-frame-pointer -frename-registers -fweb -flto=9 -fuse-linker-plugin
+CMAKE_C_FLAGS:STRING=
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -81,7 +81,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl,-O1 -Wl,--as-needed
+CMAKE_EXE_LINKER_FLAGS:STRING=-Wl,--copy-dt-needed-entries
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -109,7 +109,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl,-O1 -Wl,--as-needed
+CMAKE_MODULE_LINKER_FLAGS:STRING=-Wl,--copy-dt-needed-entries
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -153,7 +153,7 @@ CMAKE_READELF:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-L/home/szybet/Kindle/CrossTool/Build_KOBO/lib -Wl,-O1 -Wl,--as-needed
+CMAKE_SHARED_LINKER_FLAGS:STRING=-Wl,--copy-dt-needed-entries
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -201,8 +201,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=kobo.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/mnt/HDD/Project/compile/sff/qvterm/kobo.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console

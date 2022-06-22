@@ -8,7 +8,33 @@
 	"CMAKE_SOURCE_DIR" : "/mnt/HDD/Project/compile/sff",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/mnt/HDD/Project/compile/sff/app/qvterm.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_qvterm.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/app/region.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_region.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/app/vterm.h",
+			"Mu",
+			"EWIEGA46WW/moc_vterm.cpp",
+			null
+		],
+		[
+			"/mnt/HDD/Project/compile/sff/app/vterm_keycodes.h",
+			"Mu",
+			"EWIEGA46WW/moc_vterm_keycodes.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/mnt/HDD/Project/compile/sff/app/sff_autogen/include",
 	"MOC_COMPILATION_FILE" : "/mnt/HDD/Project/compile/sff/app/sff_autogen/mocs_compilation.cpp",

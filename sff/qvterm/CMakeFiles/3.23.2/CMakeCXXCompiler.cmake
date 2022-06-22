@@ -79,6 +79,6 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/mnt/HDD/Project/qt-kobo/qt-linux-5.15.2-kobo/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/arm-kobo-linux-gnueabihf;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include/c++/11.2.0/backward;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0/include-fixed;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/include;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/szybet/Kindle/CrossTool/Build_KOBO/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc/arm-kobo-linux-gnueabihf/11.2.0;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/lib/gcc;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/lib;/mnt/HDD/Project/qt-kobo/x-tools/arm-kobo-linux-gnueabihf/arm-kobo-linux-gnueabihf/sysroot/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
